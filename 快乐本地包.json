@@ -1,0 +1,1203 @@
+{
+    "spider": "./lanny520.txt",
+    "wallpaper": "https://深色壁纸.xxooo.cf/",
+    "sites": [
+        {
+            "key": "央视综合",
+            "name": "📺央视┃综合",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./lib/央视综合.js"
+        },
+        {
+            "key": "lf_live10_min-output",
+            "name": "电视 | 直播[js]",
+            "type": 3,
+            "api": "./lib/lf_live10_min-output.js",
+            "style": {
+                "type": "oval"
+            },
+            "searchable": 1,
+            "changeable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/lf_live.txt"
+        },
+        {
+            "key": "零度影视",
+            "name": "零零4k专线1080b",
+            "type": 3,
+            "api": "./py/零度.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "csp_Wwys",
+            "name": "🔥农民┃1080P",
+            "jar": "./xiaomi.php",
+            "type": 3,
+            "api": "csp_WwysGuard",
+            "ext": "https://www.wwgz.cn"
+        },
+        {
+            "key": "4k电影",
+            "name": "4K电影",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类": "4K电影$1#4K剧集$2#4K动漫$3",
+                "分类url": "https://www.4kdy.vip/4K-show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "简介": "🍁凯少爷🍁水印广告勿信，🍁谨防诈骗🍁"
+            }
+        },
+                {
+            "key": "1106J&8k",
+            "name": "8K|哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "json": "./json/哔哩8K.json",
+                "cookie": "http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt"
+            }
+        },
+        {
+            "key": "qq",
+            "name": "悟空┃繁华影视📽️",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "作者": "繁华",
+                "站名": "悟空电影",
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "图片代理": "",
+                "直接播放": "0",
+                "播放请求头": "",
+                "嗅探词": ".mp4#.m3u8#.flv",
+                "过滤词": "",
+                "主页url": "https://www.daboedu.com",
+                "首页": "120",
+                "起始页": "1",
+                "分类url": "https://www.daboedu.com/s/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+                "分类": "电影$dianying#电视剧$lianxuju#综艺$zongyi#动漫$dongman",
+                "二次截取": "默认--pic\">&&</body>||搜索--list\":\\[&&\\]",
+                "数组": "默认--data-original=&&</li>||搜索--{&&}",
+                "标题": "默认--alt=\"&&\"||搜索--name\":\"&&\"",
+                "图片": "默认--\"&&\"||搜索--pic\":\"&&\"",
+                "副标题": "",
+                "链接": "默认--href=\"&&\"||搜索--/v/+id\":&&,+.html",
+                "影片年代": "年代:&&</p>",
+                "影片地区": "地区:&&</p>",
+                "影片类型": "类型:&&</p>",
+                "状态": "更新：&&</div>",
+                "导演": "导演:&&</p>",
+                "主演": "主演:&&</p>",
+                "简介": "✨繁华为您介绍剧情👉请不要相信视频中的广告！+<h2>&&悟空",
+                "跳转数组": "juhe&&</p>",
+                "跳转链接": "href=\"&&\"",
+                "线路数组": "<p&&</p>",
+                "线路标题": "✨繁华推荐✨线路",
+                "播放数组": "id=\"dx&&</ul>",
+                "播放列表": "<a&&/a>",
+                "播放标题": "✨+>&&<",
+                "播放链接": "play&&\">[替换:(>>-#,>>-#);>>.html]",
+                "播放链接前缀": "https://www.daboedu.com/p/+/p/&&-1-1.html",
+                "跳转播放链接": "<iframe*src=\"&&\"",
+                "搜索模式": "1",
+                "搜索请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 12；； PEHM00 Build/SKQ1.210216.001；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/133.0.6943.122 Mobile Safari/537.36",
+                "搜索url": "/index.php/ajax/suggest?mid=1&wd={wd}&page={pg}",
+                "筛选": "1",
+                "类型": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian||国产剧$guochanju#欧美剧$oumeiju#日韩剧$rihanju#港台剧$gangtaiju#其他剧$qitaju||空||空||",
+                "地区": "中国大陆&中国香港&中国台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&其它",
+                "地区值": "*"
+            }
+        },
+        {
+            "key": "影视猫",
+            "name": "影视猫",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$29",
+                "分类url": "https://ysmao.cc/vodtype/{cateId}/page/{catePg}.html",
+                "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
+        {
+            "key": "拖布",
+            "name": "拖布影视",
+            "type": 3,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "数组": "third-mobile&&</a>",
+                "标题": "title=\"&&\"",
+                "图片": "data-src=\"&&\"",
+                "副标题": "\"subtitle is-6\">&&<",
+                "链接": "href=\"&&\"",
+                "线路数组": "\"##\"&&</a>",
+                "线路标题": ">&&<",
+                "播放数组": "is-1-mobile&&</div></div>",
+                "播放列表": "<a&&a>",
+                "播放标题": ">&&<",
+                "播放链接": "href=\"&&\"",
+                "分类url": "https://www.rainvi.com/index.php/vod/show/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+            }
+        },
+        {
+            "key": "乐柔影视",
+            "name": "乐柔影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://l.leroutv.cn/api.php/app/"
+        },
+        {
+            "key": "影港┃4K",
+            "name": "影港┃4K",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://www.meowtv.cn/xp/meow.php?file=ygcl",
+            "jar": "http://m1839732.cf.caoni.ru/4/meow.php"
+        },
+        {
+            "key": "配置中心",
+            "name": "配置｜中心",
+            "type": 3,
+            "api": "csp_Config",
+            "jar": "./spide潇r洒.jar",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "百度网盘",
+            "name": "百度网盘｜4k",
+            "type": 3,
+            "api": "csp_PanWebQu",
+            "jar": "./spide潇r洒.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": {
+                "url": "https://www.qupanshe.com"
+            }
+        },
+        {
+            "key": "123盘┃4K",
+            "name": "123盘┃4K",
+            "type": 3,
+            "api": "csp_PanWebShareCloudHM",
+            "jar": "./json/qxyc.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/pan1.json?"
+        },
+        {
+            "key": "Pan1",
+            "name": "123云盘🐉4k",
+            "type": 3,
+            "api": "csp_PanWebShareCloudHM",
+            "jar": "./lib/spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "ext": "./json/pan1.json?"
+        },
+        {
+            "key": "木偶",
+            "name": "木偶｜4K",
+            "type": 3,
+            "jar": "./lib/spider.jar",
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/mogg.json?"
+        },
+        {
+            "key": "4k1",
+            "name": "4k1",
+            "type": 3,
+            "api": "./lib/apiv1021drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "http://121.62.21.61:8866/apia/zjys/lib/%E4%B8%BB%E7%BA%BF1.js"
+        },
+        {
+            "key": "csp_Jianpian",
+            "name": "🧲荐片",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "jar": "./lib/南风.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/jianpian.json"
+        },
+        {
+            "key": "贱贱",
+            "name": "🐭荐片P2P",
+            "type": 3,
+            "api": "csp_JPJGuard",
+            "jar": "./lib/wzxf.txt",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
+            "key": "荐片弹幕",
+            "name": "👍️荐片蓝光弹幕",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "jar": "https://gitee.com/wzbdyr/xcz/raw/master/jar/danmu.php",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
+            "key": "荐片",
+            "name": "🍭荐片磁力",
+            "api": "csp_Jianpian",
+            "jar": "./lib/xiaoyii.jar;md5;0c1b445d169566cda344d6877ad76b43",
+            "type": 3,
+            "playerType": "1",
+            "ext": "http://api2.rinhome.com"
+        },
+        {
+            "key": "荐片",
+            "name": "荐片┃影视",
+            "api": "csp_Jianpian",
+            "jar": "./lib/PandaQ241122.txt;md5;b22151214f757c2d4b25635393e06228",
+            "type": 3,
+            "playerType": "2",
+            "ext": "http://api2.rinhome.com"
+        },
+        {
+            "key": "4K",
+            "name": "4K在线",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": "2",
+            "api": "csp_XBPQ",
+            "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1704761840381/c (1).txt;md5;bb155c3f0133bbce4756ad52003f5968",
+            "ext": {
+                "请求头": "User-Agent : Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+                "编码": "UTF-8",
+                "主页url": "https://4k-av.com",
+                "首页": "120",
+                "起始页": "1",
+                "分类url": "/{cateId}{class}/page-{catePg}.html[https://4k-av.com/{cateId}{class}];;rcS1",
+                "分类": "电影&剧集",
+                "分类值": "movie&tv",
+                "数组": "tags\">&&</a>",
+                "标题": "alt=\"&&海报",
+                "图片": "src=\"&&\"",
+                "副标题": "标签:&&</label>",
+                "链接": "href=\"&&\"",
+                "影片年代": "年份:&&</a >",
+                "影片地区": "片长:&&</label>",
+                "影片类型": "标签:&&</div>",
+                "状态": "videodetail\">&&</label>",
+                "简介": "cnline\">&&</p>",
+                "线路数组": "videoinfo\">&&</div>",
+                "线路标题": "4K在线",
+                "播放二次截取": "infomain\">&&reidnull[替换:href>>rtlist\"><img<span>第1集</span>src#poster.jpg>>\"</li></ul>]",
+                "播放数组": "rtlist\">&&</ul>",
+                "倒序": "0",
+                "播放列表": "<img&&</li>[替换:screenshot.jpg>>空]",
+                "播放标题": "<span*>&&</span>",
+                "播放链接": "src=\"&&\"",
+                "跳转播放链接": "<source src=\"&&\"",
+                "搜索请求头": "User-Agent : Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+                "搜索url": "/s?q={wd}",
+                "搜索模式": "1",
+                "搜索标题": "title=\"&&/",
+                "搜索图片": "src=\"&&\"",
+                "搜索副标题": "标签:&&</label>",
+                "搜索链接": "href=\"&&\""
+            }
+        },
+        {
+            "key": "360_spider",
+            "name": "360秒播",
+            "jar": "./lib/Hk.jar",
+            "api": "csp_SP360",
+            "type": 3,
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "playUrl": "https://jx.m3u8.tv/jiexi/?url="
+        },
+        {
+            "key": "大师兄影视",
+            "name": "大师兄影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://www.ruiding3bu.com/ruvodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi#豆瓣电影Top250$42",
+                "简介": "🍁知🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
+        {
+            "key": "小苹果弹幕",
+            "name": "小苹果弹幕",
+            "type": 3,
+            "api": "csp_Xpg",
+            "jar": "./lib/天道.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
+            "key": "短剧",
+            "name": "短剧影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://www.duanjuwang.cc/vodshow/{cateId}--------{catePg}---{year}.html",
+                "分类": "短剧$duanju#电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman"
+            }
+        },
+        {
+            "key": "晚风影视",
+            "name": "晚风影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://111.180.202.216:999/api.php/app/"
+        },
+        {
+            "key": "木瓜",
+            "name": "木瓜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页": "http://www.muguatv1.com/",
+                "分类url": "http://www.muguatv1.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
+                "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman",
+                "线路数组": "nav-item&&</li>",
+                "线路标题": ">&&</button>"
+            }
+        },
+        {
+            "key": "app",
+            "name": "app影视",
+            "type": 3,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://www.appmovie.link/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
+            }
+        },
+        {
+            "key": "🍁凯少爷🍁芒果视频4K",
+            "name": "🍁凯少爷🍁芒果视频4K",
+            "type": 3,
+            "api": "./lib/apiv1021drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/芒果视频4K.json"
+        },
+        {
+            "key": "热播弹幕",
+            "name": "热播｜弹幕",
+            "type": 3,
+            "jar": "./lib/spider2.jar",
+            "api": "csp_TianTian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true,
+                "site": "aHR0cDovL3YucmJvdHYuY24="
+            }
+        },
+        {
+            "key": "KK",
+            "name": "KK影视",
+            "type": 3,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://www.keke6.app/show/{cateId}-{class}-{area}-{land}-{year}-{catePg}.html",
+                "分类": "电影$1#剧集$2#动漫$3#综艺$4",
+                "标题": "title\">&&</div",
+                "图片": "src=\"/&&\""
+            }
+        },
+        {
+            "key": "哔哩合集",
+            "name": "B站｜弹幕",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "./json/哔哩合集2.json"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "影迷",
+            "name": "影迷网",
+            "type": 3,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://lkvod.me/show/{cateId}---{class}-----{catePg}---{year}.html",
+                "分类": "电影$1#剧集$2#综艺$3#动漫$4",
+                "图片": "https://vcover-vt-pic.puui.qpic.cn/+data-src=\"&&\""
+            }
+        }
+    ],
+    "logo": "https://s1.aigei.com/prevfiles/07af40533c04427f91098598cf6cc957.gif?e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:lVGlhYNMGya3ymTjGfqfuLbFKTY=",
+    "lives": [
+        {
+            "name": "电视MG",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745115533242/mgqn.txt",
+            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "国内Live",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740592110565/zq.fif.txt",
+            "playerType": 2,
+            "timeout": 10,
+            "catchup": {
+                "type": "append",
+                "source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+            }
+        },
+        {
+            "name": "国内移动",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739616589773/zq.txt",
+            "playerType": 2,
+            "timeout": 10,
+            "catchup": {
+                "type": "append",
+                "source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+            }
+        },
+        {
+            "name": "范明明",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "电视Live",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
+            "playerType": 2,
+            "ua": "okhttp/3.15",
+            "timeout": 10
+        },
+        {
+            "name": "江苏移动",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1744201662209/jjssyydd.txt",
+            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "一起看",
+            "type": 3,
+            "api": "csp_HuyaGuard",
+            "url": "yqk",
+            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "肥羊B站直播",
+            "type": 3,
+            "api": "csp_FeiyangGuard",
+            "url": "bililive.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊斗鱼一起看",
+            "type": 3,
+            "api": "csp_FeiyangGuard",
+            "url": "douyuyqk.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊YY轮播",
+            "type": 3,
+            "api": "csp_FeiyangGuard",
+            "url": "yylunbo.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        }
+    ],
+    "hosts": [
+        "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
+    ],
+    "flags": [],
+    "parses": [
+        {
+            "name": "解析聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "Json轮询",
+            "type": 2,
+            "url": "Sequence"
+        },
+        {
+            "name": "羊羊",
+            "type": 1,
+            "url": "http://117.50.184.199:94/api.php/?key=1&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "聚合1",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "聚合0",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "AI自动",
+            "url": "http://wmm.ys.wmmys.cn/api/index?parsesId=3&appid=10000&videoUrl=",
+            "type": "1"
+        },
+        {
+            "name": "线路1",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "解析1",
+            "type": 1,
+            "url": "http://103.36.221.75:81/ltbygbgg/api.php?url="
+        },
+        {
+            "name": "解析2",
+            "type": 1,
+            "url": "https://www.tcsbl.cn/api/lib/shuo.php?url="
+        },
+        {
+            "name": "巧技",
+            "type": 1,
+            "url": "https://zy.qiaoji8.com/neibu.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "巧技二",
+            "type": 1,
+            "url": "https://zy.qiaoji8.com/gouzi.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905",
+                    "NetFilx"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "巧技三",
+            "type": 1,
+            "url": "https://zy.qiaoji8.com/xiafan.php?url=",
+            "ext": {
+                "flag": [
+                    "QD4K",
+                    "iyf",
+                    "duanju",
+                    "gzcj",
+                    "GTV",
+                    "GZYS",
+                    "weggz",
+                    "Ace"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "巧技四",
+            "type": 1,
+            "url": "https://zy.qiaoji8.com/gouzi.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905",
+                    "NetFilx"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "小白白 QQ群1042324037",
+            "type": "1",
+            "url": "http://222.186.57.24:7600/jx.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "1080P QQ群1042324037",
+            "type": "2",
+            "url": "https://json.puketv.com/api/?key=zuHdEdpapXWzWIdSp4&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "解析三",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url="
+        },
+        {
+            "name": "夜幂解析",
+            "type": 0,
+            "url": "https://www.pangujiexi.com/pangu/?url="
+        },
+        {
+            "name": "盘古解析",
+            "type": 0,
+            "url": "https://www.pangujiexi.com/pangu/?url="
+        },
+        {
+            "name": "解析1",
+            "type": 1,
+            "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "1080解析",
+            "type": 1,
+            "url": "https://zy.qiaoji8.com/gouzi.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "全解析",
+            "type": 0,
+            "url": "https://jx.we-vip.com/?url="
+        },
+        {
+            "name": "👇如遇卡顿尝试切换LJK/EXO👇",
+            "url": "/",
+            "type": "1"
+        },
+        {
+            "name": "无敌凯少爷免费接口禁止贩卖",
+            "url": "http://jx.hjfggzs.top/api/diy/?key=MgayuZRdJt07QuimYV&url=",
+            "type": "0"
+        }
+    ],
+    "ijk": [
+        {
+            "group": "软解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        },
+        {
+            "group": "硬解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        }
+    ],
+    "ads": [
+        "mimg.0c1q0l.cn",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "mc.usihnbcq.cn",
+        "mg.g1mm3d.cn",
+        "mscs.svaeuzh.cn",
+        "cnzz.hhttm.top",
+        "tp.vinuxhome.com",
+        "cnzz.mmstat.com",
+        "www.baihuillq.com",
+        "s23.cnzz.com",
+        "z3.cnzz.com",
+        "c.cnzz.com",
+        "stj.v1vo.top",
+        "z12.cnzz.com",
+        "img.mosflower.cn",
+        "tips.gamevvip.com",
+        "ehwe.yhdtns.com",
+        "xdn.cqqc3.com",
+        "www.jixunkyy.cn",
+        "sp.chemacid.cn",
+        "hm.baidu.com",
+        "s9.cnzz.com",
+        "z6.cnzz.com",
+        "um.cavuc.com",
+        "mav.mavuz.com",
+        "wofwk.aoidf3.com",
+        "z5.cnzz.com",
+        "xc.hubeijieshikj.cn",
+        "tj.tianwenhu.com",
+        "xg.gars57.cn",
+        "k.jinxiuzhilv.com",
+        "cdn.bootcss.com",
+        "ppl.xunzhuo123.com",
+        "xomk.jiangjunmh.top",
+        "img.xunzhuo123.com",
+        "z1.cnzz.com",
+        "v1.cnzz.com",
+        "s13.cnzz.com",
+        "xg.huataisangao.cn",
+        "z7.cnzz.com",
+        "xg.huataisangao.cn",
+        "z2.cnzz.com",
+        "s96.cnzz.com",
+        "q11.cnzz.com",
+        "thy.dacedsfa.cn",
+        "xg.whsbpw.cn",
+        "s19.cnzz.com",
+        "z8.cnzz.com",
+        "s4.cnzz.com",
+        "f5w.as12df.top",
+        "ae01.alicdn.com",
+        "videocloud.cn-hangzhou.log.aliyuncs.com",
+        "www.92424.cn",
+        "k.wudejia.com",
+        "vivovip.mmszxc.top",
+        "qiu.xixiqiu.com",
+        "cdnjs.hnfenxun.com",
+        "cms.qdwght.com"
+    ]
+}
